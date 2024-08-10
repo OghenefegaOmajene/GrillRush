@@ -80,13 +80,13 @@ const Homepage = () => {
                 At GrillRush Foods, we believe that fast food should be more than just quick—it should be an experience. That's why we've carefully crafted a menu that combines classic favorites with innovative new dishes, all made from the freshest ingredients and grilled to perfection. 
                 Whether you're in the mood for a juicy burger, a crispy chicken wing, or a cheesy pizza, we've got something to excite your taste buds.
             </p>
-            <p>
+            <p id='giveBack'>
                 We’re passionate about giving back to the neighborhoods we serve, sourcing ingredients locally whenever possible, and minimizing our environmental impact through sustainable practices.
                 So here are some reasons why you should order at GrillRush:
             </p>
 
             <div className='whyUs'>
-                <p id='whyUsTxt'><i><TiTick /></i>We use only high-quality, fresh ingredients and offer a selection of healthy menu options, including salads, grilled items, and whole grain products in order to tackle the problem of the circulation of low-quality, unhealthy food..</p>
+                <p id='whyUsTxt'><i><TiTick /></i>We use only high-quality, fresh ingredients and offer a selection of healthy menu options, including salads, grilled items, and whole grain products.</p>
                 <p id='whyUsTxt'>
                     <i><TiTick /></i>
                     We pride ourselves on providing exceptional service, ensuring that every visit is as satisfying as the meal itself. 

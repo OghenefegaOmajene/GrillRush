@@ -115,3 +115,9 @@
         padding-left: 0;
     }
 }
+
+@media screen and (max-width: 440px){
+    .Block{
+        width: 260px;
+    }
+}

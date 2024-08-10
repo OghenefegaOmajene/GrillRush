@@ -451,7 +451,7 @@ html {
 
  @media screen and (max-width: 440px){
     #about{
-     height: 1400px;
+     height: 1000px;
      padding: 40px;
     }
     #about > h1, p{
@@ -466,6 +466,9 @@ html {
     }
     #whyUsTxt{
         font-size: 16px;
+    }
+    #giveBack{
+        display: none;
     }
     .bannerImgTxt{
         padding: 30px;
