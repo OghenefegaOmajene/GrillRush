@@ -6,30 +6,36 @@
 }
 @media screen and (max-width: 1200px) {
   .Body{
-    height: 190vh;
-  }
-}
-@media screen and (max-width: 1110px) {
-  .Body{
-    height: 180vh;
-  }
-}
-@media screen and (max-width: 978px) {
-  .Body{
-    height: 310vh;
+    height: 240vh;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 940px) {
   .Body{
-    height: 350vh;
+    height:460vh;
   }
-
 }
 
- @media screen and (max-width: 644px) {
-  .Body{
-    height: 370vh;
-  }
+@media screen and (max-width: 860px) {
+    .Body{
+      height: 480vh;
+    }
+}
 
-} 
+@media screen and (max-width: 780px) {
+  .Body{
+    height: 500vh;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .Body{
+    height: 490vh;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .Body{
+    height: 520vh;
+  }
+}

@@ -22,17 +22,20 @@
     }
 }
   
-@media screen and (max-width: 978px) {
+@media screen and (max-width: 940px) {
+    .products{
+        gap: 40px;
+    }
     .top, .bottom {
-
+        gap: 40px;
         grid-template-columns: 1fr;
     }
-}
+} 
 @media screen and (max-width: 870px) {
     .productBox {
         padding-left: 27px;
     }
-}
+} 
 /* @media screen and (max-width: 948px) {
     .productBox {
       grid-template-columns: 1fr;

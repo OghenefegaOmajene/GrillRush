@@ -97,27 +97,32 @@
     margin-left: -220px;
 } */
 
-@media screen and (max-width: 1200px){
-    .productBox{
-        height: 440px;
+@media screen and (max-width: 1080px) {
+    .Block{
+        width: 260px;
     }
 }
-@media screen and (max-width: 980px) {
-    #price{
-        font-size: 20px;
-    }
-    #productName{
-        margin-bottom: 0;
-    }
-}
-@media screen and (max-width: 600px){
-    .productBox{
-        padding-left: 0;
+@media screen and (max-width: 940px) {
+    .Block{
+     width: 300px;
     }
 }
 
-@media screen and (max-width: 440px){
+@media screen and (max-width: 480px) {
     .Block{
-        width: 260px;
+     width: 260px;
+     height: 360px;
+    }
+    .productTxt{
+        height: 50%;
+    }
+    .productImage{
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .Block{
+     width: 240px;
     }
 }

@@ -72,22 +72,18 @@ const Homepage = () => {
 
         <div id="about">
             <h1>About Us</h1>
-            <p>
+            <p id='Welcome' className=''>
                 Welcome to GrillRush Foods, where speed meets flavor in the most delicious way possible! Born out of a passion for great food and a desire to bring mouthwatering meals to busy lives, 
                 GrillRush Foods is your go-to destination for high-quality, freshly prepared fast food that satisfies your cravings without compromising on taste.
             </p>
-            <p>
+            <p id='AtGrillRush'>
                 At GrillRush Foods, we believe that fast food should be more than just quick—it should be an experience. That's why we've carefully crafted a menu that combines classic favorites with innovative new dishes, all made from the freshest ingredients and grilled to perfection. 
-                Whether you're in the mood for a juicy burger, a crispy chicken wing, or a cheesy pizza, we've got something to excite your taste buds.
-            </p>
-            <p id='giveBack'>
-                We’re passionate about giving back to the neighborhoods we serve, sourcing ingredients locally whenever possible, and minimizing our environmental impact through sustainable practices.
-                So here are some reasons why you should order at GrillRush:
+                Whether you're in the mood for a juicy burger, a crispy chicken wing, or a cheesy pizza, we've got something to excite your taste buds. So here are some reasons why you shoud choose us:
             </p>
 
             <div className='whyUs'>
-                <p id='whyUsTxt'><i><TiTick /></i>We use only high-quality, fresh ingredients and offer a selection of healthy menu options, including salads, grilled items, and whole grain products.</p>
-                <p id='whyUsTxt'>
+                <p id='whyUsTxt1'><i><TiTick /></i>We use only high-quality, fresh ingredients and offer a selection of healthy menu options.</p>
+                <p id='whyUsTxt2'>
                     <i><TiTick /></i>
                     We pride ourselves on providing exceptional service, ensuring that every visit is as satisfying as the meal itself. 
                     From our speedy service to our welcoming atmosphere, we strive to make your experience enjoyable.
